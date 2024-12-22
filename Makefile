@@ -1,5 +1,5 @@
-NAME ?= calendagostinho
-DESCRIPTION ?= Calendagostinho
+NAME ?= calendastinho
+DESCRIPTION ?= Calendastinho
 
 REGISTRY ?= registry.gitlab.com
 

@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    darkMode: ["class"],
-    content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
-  content: [],
+    darkMode: ['class'],
+    content: [
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}', // Include all your component files
+  ],
   theme: {
   	extend: {
   		borderRadius: {
@@ -54,6 +56,7 @@ module.exports = {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+	require("tailwindcss-animate")
+],
 }
-
